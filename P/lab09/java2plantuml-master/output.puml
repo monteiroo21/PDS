@@ -1,0 +1,69 @@
+@startuml
+skinparam classAttributeIconSize 0
+class Sky{
+- stars : List<Star>
++ placeStar(star : Star) : void
++ paint(graphics : Graphics) : void
+}
+Sky --|> JFrame
+class GStar{
++ GStar(x : int, y : int)
+}
+GStar --|> StarType
+class KStar{
++ KStar(x : int, y : int)
+}
+KStar --|> StarType
+class Star{
+- x : int
+- y : int
+- starType : StarType
++ Star(x : int, y : int, starType : StarType)
++ getX() : int
++ getY() : int
++ getStarType() : StarType
++ draw(g : Graphics) : void
+}
+class AStar{
++ AStar(x : int, y : int)
+}
+AStar --|> StarType
+class MStar{
++ MStar(x : int, y : int)
+}
+MStar --|> StarType
+class Ex3{
+{static} CANVAS_SIZE : int
+{static} STARS_TO_DRAW : int
++ {static} main(args : String[]) : void
+- {static} random(min : int, max : int) : int
+}
+class StarFactory{
+- {static} starTypes : Map<Character,StarType>
++ StarFactory()
++ createStar(type : Character) : Star
+- randomFunction(i : int, CANVAS_SIZE : int) : int
+}
+class BStar{
++ BStar(x : int, y : int)
+}
+BStar --|> StarType
+class StarType{
+- size : int
+- color : Color
+# description : String
+# physicalProperties : Float[]
++ StarType(size : int, color : Color)
++ getColor() : Color
++ getSize() : int
+}
+class FStar{
++ FStar(x : int, y : int)
+}
+FStar --|> StarType
+class OStar{
++ OStar(x : int, y : int)
+}
+OStar --|> StarType
+Star--"- starType" StarType
+@enduml

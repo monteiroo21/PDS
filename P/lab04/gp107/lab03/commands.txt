@@ -1,0 +1,3 @@
+F TP120 2x3 5x3
+M TP120
+I flight1.txt

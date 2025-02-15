@@ -1,0 +1,28 @@
+/home/joao/Desktop/PDS/practical-gp304/lab13/XIII.2
+2024/06/05 14:24:07
+
+Alínea a) ----------------------------------
+
+Ref: P11 - Ref: S111 - Container Ship with 1 ships. Total passengers capacity: 120
+	PassengerShip [code=S199, name=Bananeiros, passengers=120]
+
+Ref: C11 - CargoShip [code=S732, name=SoPingas, cargo=20.2]
+Ref: P35 - PassengerShip [code=S185, name=PDS All aboard, passengers=80]
+Ref: C02 - CargoShip [code=S101, name=Quebra Molas, cargo=155.5]
+Ref: C03 - CargoShip [code=S923, name=Madalena, cargo=18.8]
+Ref: P06 - PassengerShip [code=S078, name=Costeiro, passengers=25]
+Ref: P54 - PassengerShip [code=S199, name=Bananeiros, passengers=120]
+
+Alínea b) ----------------------------------
+
+2
+1
+Ref: P11 - Ref: S111 - Container Ship with 1 ships. Total passengers capacity: 120
+	PassengerShip [code=S199, name=Bananeiros, passengers=120]
+
+Ref: C11 - CargoShip [code=S732, name=SoPingas, cargo=20.2]
+Ref: P35 - PassengerShip [code=S185, name=PDS All aboard, passengers=80]
+Ref: C02 - CargoShip [code=S101, name=Quebra Molas, cargo=155.5]
+Ref: C03 - CargoShip [code=S923, name=Madalena, cargo=18.8]
+Ref: P06 - PassengerShip [code=S078, name=Costeiro, passengers=25]
+Ref: P54 - PassengerShip [code=S199, name=Bananeiros, passengers=120]

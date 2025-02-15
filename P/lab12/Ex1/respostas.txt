@@ -1,0 +1,2 @@
+alínea a) - Strategy, Template Method
+alínea b) - Sorter é uma classe abstrata que implementa o padrão Template Method, MobilePhoneSorter implementa o padrão Strategy

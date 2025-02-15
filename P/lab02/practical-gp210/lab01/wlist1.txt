@@ -1,0 +1,2 @@
+sol, lua, estrela; 
+planeta, galáxia, cometa

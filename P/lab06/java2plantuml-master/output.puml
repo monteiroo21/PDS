@@ -1,0 +1,66 @@
+@startuml
+skinparam classAttributeIconSize 0
+class MovieBuilder{
+- title : String
+- year : int
+- director : Person
+- writer : Person
+- series : String
+- cast : List<Person>
+- locations : List<Place>
+- languages : List<String>
+- genres : List<String>
+- isTelevision : boolean
+- isNetflix : boolean
+- isIndependent : boolean
++ MovieBuilder(title : String, year : int)
++ setDirector(director : Person) : MovieBuilder
++ setWriter(writer : Person) : MovieBuilder
++ setSeries(series : String) : MovieBuilder
++ setCast(cast : List<Person>) : MovieBuilder
++ setLocations(locations : List<Place>) : MovieBuilder
++ setLanguages(languages : List<String>) : MovieBuilder
++ setGenres(genres : List<String>) : MovieBuilder
++ setIsTelevision(isTelevision : Boolean) : MovieBuilder
++ setIsNetflix(isNetflix : Boolean) : MovieBuilder
++ setIsIndependent(isIndependent : Boolean) : MovieBuilder
++ build() : Movie
+}
+class Place{
+- name : String
++ Place(name : String)
++ getName() : String
++ setName(name : String) : void
++ toString() : String
+}
+class Person{
+- name : String
++ Person(name : String)
++ getName() : String
++ setName(name : String) : void
++ toString() : String
+}
+class Movie{
+- title : String
+- year : int
+- director : Person
+- writer : Person
+- series : String
+- cast : List<Person>
+- locations : List<Place>
+- languages : List<String>
+- genres : List<String>
+- isTelevision : boolean
+- isNetflix : boolean
+- isIndependent : boolean
+- Movie(builder : MovieBuilder)
++ toString() : String
+}
+class Main{
++ {static} main(args : String[]) : void
+}
+MovieBuilder--"- director" Person
+MovieBuilder--"- writer" Person
+Movie--"- director" Person
+Movie--"- writer" Person
+@enduml

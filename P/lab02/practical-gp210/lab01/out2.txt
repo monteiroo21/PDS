@@ -1,0 +1,20 @@
+estrela                3    6,7     Down
+planeta               12    1,7     Up
+galaxia                1    7,7     Right
+cometa                10    5,6     Up
+sol                    2    9,3     DownRight
+lua                    7    2,3     UpRight
+
+. . . . . . G A L A X I A 
+. . . . . . . . S . . . . 
+. . . . . E . . . O . . . 
+. . . . . S . . . . L . . 
+. . . A A T . . . . . . . 
+A . U . T R . . . . . . . 
+T L . . E E . . . . . . . 
+E . . . M L . . . . . . . 
+N . . . O A . . . . . . . 
+A . . . C . . . . . . . . 
+L . . . . . . . . . . . . 
+P . . . . . . . . . . . . 
+. . . . . . . . . . . . . 

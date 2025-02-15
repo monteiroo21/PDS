@@ -1,0 +1,16 @@
+1:
+
+    Adapter
+    (State) optional
+    Iterator -> list.iterator()
+
+    Bridge/Strategy
+
+    Observer
+
+2:
+    Composite
+
+    Factory
+
+    Proxy

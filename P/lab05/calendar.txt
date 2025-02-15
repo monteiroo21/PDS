@@ -1,0 +1,6 @@
+A classe Calendar é uma classe abstrata que fornece suporte para a manipulação de datas e horas no calendário.
+
+A classe Calendar utiliza várias vezes o padrão Factory method para criar calendários através do método definido como createCalendar, que quando chamado, cria um novo calendário com base na localidade e na zona de tempo fornecidas. Isto proporciona uma forma felxível de criar instâncias de calendário, o que permite uma adaptação a diferentes localidades e tipos de calendário.
+
+
+A classe Builder adota o padrão de construção fluente (fluent builder pattern), que consiste em uma técnica para criar objetos de maneira mais expressiva e concisa. Neste padrão, os métodos de configuração retornam o próprio objeto (normalmente utilizando 'this'), o que possibilita encadear chamadas de método para configurar o objeto de forma clara e direta. Isso significa que cada método de configuração retorna uma referência para o próprio objeto, permitindo assim a sequência de chamadas de método consecutivas para definir diferentes atributos do objeto de maneira fácil de compreender.

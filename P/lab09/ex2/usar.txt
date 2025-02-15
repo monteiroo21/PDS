@@ -1,0 +1,4 @@
+usar uma facade
+é tudo classes
+com lista(Person)
+e passar para a company

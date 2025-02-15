@@ -1,0 +1,11 @@
+Inicializar o avião com todos os valores a 0.
+Array bi-dimensional, dadas as dimensões inseridas no F. F cod seats_T seats_E
+
+M flight_code:
+Apresenta os lugares do avião (dar print ao array basta ig)
+
+I filename:
+Ler o ficheiro de texto e verificar se é possível inserir
+
+R fligth_code class number_seats
+Verificar se é possível fazer a reserva, trocar o valor no array e dar print dos lugares.

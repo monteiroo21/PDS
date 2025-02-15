@@ -1,0 +1,58 @@
+@startuml
+skinparam classAttributeIconSize 0
+class ContactsStorageBin{
+- file : String
++ ContactsStorageBin(file : String)
++ loadContacts() : List<Contact>
++ saveContacts(list : List<Contact>) : boolean
+}
+ContactsStorageBin ..|> ContactsStorageInterface
+class ContactsManager{
+- store : ContactsStorageInterface
+- contacts : List<Contact>
++ ContactsManager(store : ContactsStorageInterface)
++ openAndLoad(store : ContactsStorageInterface) : void
++ saveAndClose() : void
++ saveAndClose(store : ContactsStorageInterface) : void
++ exist(contact : Contact) : boolean
++ getByName(name : String) : Contact
++ add(contact : Contact) : boolean
++ remove(contact : Contact) : boolean
++ toString() : String
+}
+ContactsManager ..|> ContactsInterface
+class Main{
++ {static} main(args : String[]) : void
+}
+class Contact{
+- name : String
+- number : int
++ Contact(name : String, number : int)
++ getName() : String
++ getNumber() : int
++ setName(name : String) : void
++ setNumber(number : int) : void
++ toString() : String
+}
+class ContactsStorageText{
+- file : String
++ ContactsStorageText(file : String)
++ loadContacts() : List<Contact>
++ saveContacts(list : List<Contact>) : boolean
+}
+ContactsStorageText ..|> ContactsStorageInterface
+ContactsManager--"- store" ContactsStorageInterface
+interface ContactsStorageInterface{
++ loadContacts() : List<Contact>
++ saveContacts(list : List<Contact>) : boolean
+}
+interface ContactsInterface{
++ openAndLoad(store : ContactsStorageInterface) : void
++ saveAndClose() : void
++ saveAndClose(store : ContactsStorageInterface) : void
++ exist(contact : Contact) : boolean
++ getByName(name : String) : Contact
++ add(contact : Contact) : boolean
++ remove(contact : Contact) : boolean
+}
+@enduml

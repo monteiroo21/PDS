@@ -1,0 +1,28 @@
+cancro             6     4,12      Right     
+programming        11    1,3       DownRight
+stack              5     2,6       DownRight
+lines              5     7,2       Down
+level              5     3,3       DownRight
+survival           8     4,9       DownRight
+skill              5     6,1       Right
+issue              5     6,16      Down
+nelson             6     1,8       DownRight
+
+. . P . . . . N . . . . . . . . . .
+. . . R . S . . E . . . . . . . . .
+. . L . O . T . . L . . . . . . . .
+. . . E . G . A S . S C A N C R O .
+. . . . V . R . C U . O . . . . . .
+S K I L L E . A . K R . N . . I . .
+. L . . . . L . M . . V . . . S . .
+. I . . . . . . . M . . I . . S . .
+. N . . . . . . . . I . . V . U . .
+. E . . . . . . . . . N . . A E . .
+. S . . . . . . . . . . G . . L . .
+. . . . . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . . . . .

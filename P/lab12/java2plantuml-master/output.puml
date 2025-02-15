@@ -1,0 +1,15 @@
+@startuml
+skinparam classAttributeIconSize 0
+class FileSizeCalculator{
+- dirSizes : Map<Path,Long>
+- totalSize : long
++ visitFile(file : Path, attrs : BasicFileAttributes) : FileVisitResult
++ postVisitDirectory(dir : Path, exc : IOException) : FileVisitResult
++ getDirSizes() : Map<Path,Long>
++ getTotalSize() : long
+}
+FileSizeCalculator --|> SimpleFileVisitor
+class SizeOf{
++ {static} main(args : String[]) : void
+}
+@enduml

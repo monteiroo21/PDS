@@ -1,0 +1,31 @@
+serendipity        11    1,16      Down      
+ephemeral          9     2,8       Down
+mellifluous        11    1,3       Down
+quintessential     14    12,1      Right
+enigmatic          9     2,4       Down
+resplendent        11    1,11      Down
+whimsical          9     2,6       Down
+nebulous           8     3,18      Down
+mellifluous        11    1,3       Down
+ethereal           8     4,9       Down
+cacophony          9     3,2       Down
+luminous           8     4,5       Down
+
+. . M . . . . . . . R . . . . S . . 
+. . E E . W . E . . E . . . . E . . 
+. C L N . H . P . . S . . . . R . N 
+. A L I L I . H E . P . . . . E . E 
+. C I G U M . E T . L . . . . N . B 
+. O F M M S . M H . E . . . . D . U 
+. P L A I I . E E . N . . . . I . L
+. H U T N C . R R . D . . . . P . O
+. O O I O A . A E . E . . . . I . U
+. N U C U L . L A . N . . . . T . S
+. Y S . S . . . L . T . . . . Y . .
+Q U I N T E S S E N T I A L . . . .
+. . . . . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . . . . .

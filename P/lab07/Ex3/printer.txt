@@ -1,0 +1,19 @@
+Spooling 1 document.
+Finished Job 0: "This is a great text..."
+Spooling 3 documents.
+Spooled jobs: 
+	* Job 2: "Natural language gen..."
+	* Job 3: "You which to know ho..."
+
+Finished Job 1: "This is a great text..."
+Finished Job 2: "Natural language gen..."
+Finished Job 3: "You which to know ho..."
+Spooling 3 documents.
+Cancelled Job 6: "You which to know ho..."
+Spooled jobs: 
+	* Job 5: "Natural language gen..."
+
+Finished Job 4: "This is a great text..."
+Finished Job 5: "Natural language gen..."
+Spooling 3 documents.
+No spooled jobs
